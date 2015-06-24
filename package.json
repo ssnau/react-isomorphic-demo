@@ -1,0 +1,19 @@
+{
+  "name": "isomorphic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "pack": "webpack --progress --colors --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^5.5.4",
+    "babel-loader": "^5.1.4",
+    "node-libs-browser": "^0.5.2",
+    "superagent": "^1.2.0",
+    "webpack": "^1.9.10"
+  }
+}
